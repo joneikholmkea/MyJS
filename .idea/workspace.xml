@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e2a5015-5458-421c-8edd-db0b57d87e19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyJS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brudleyp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexOld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sol.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steinsakspappir.html" afterDir="false" />
+    <list default="true" id="7e2a5015-5458-421c-8edd-db0b57d87e19" name="Changes" comment="first">
+      <change beforePath="$PROJECT_DIR$/brudleyp.html" beforeDir="false" afterPath="$PROJECT_DIR$/ml/brudleyp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sol.html" beforeDir="false" afterPath="$PROJECT_DIR$/ml/sol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steinsakspappir.html" beforeDir="false" afterPath="$PROJECT_DIR$/ml/steinsakspappir.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +73,15 @@
       <workItem from="1690807275213" duration="395000" />
       <workItem from="1690808421462" duration="598000" />
       <workItem from="1690890888883" duration="598000" />
-      <workItem from="1698079613227" duration="6653000" />
+      <workItem from="1698079613227" duration="7062000" />
     </task>
+    <task id="LOCAL−00001" summary="first">
+      <created>1698104747891</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1698104747891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>
