@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkbox Conditions</title>
+</head>
+<body>
+<h1>Sóla sær?</h1>
+<div>
+  <label for="input1">Skínur sólin?</label>
+  <input type="checkbox" id="input1">
+</div>
+<div>
+  <label for="input2">Hevur tú frí?</label>
+  <input type="checkbox" id="input2">
+</div>
+<button onclick="checkConditions()">Gev svar</button>
+<h2 id="result"></h2>
+
+<script>
+  function checkConditions() {
+    var isChecked1 = document.getElementById("input1").checked;
+    var isChecked2 = document.getElementById("input2").checked;
+    var resultElement = document.getElementById("result");
+
+    if (isChecked1  && isChecked2 ) {
+      resultElement.textContent = "Ja, far !";
+    } else {
+      resultElement.textContent = "Ikki núbeint";
+    }
+  }
+</script>
+</body>
+</html>

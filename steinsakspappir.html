@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Scissors Paper</title>
+  <style>
+    #result {
+      margin-top: 20px;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  </style>
+  <script>
+    function playGame() {
+      // Get the choices from the input fields
+      var player1Choice = parseInt(document.getElementById("player1").value);
+      var player2Choice = parseInt(document.getElementById("player2").value);
+
+      // Get the result element
+      var resultElement = document.getElementById("result");
+
+      // Player 1 chooses Rock
+      if (player1Choice === 0) {
+        if (player2Choice === 0) { // Player 2 chooses Rock
+          resultElement.textContent = "Javnt.";
+        } else if (player2Choice === 1) { // Player 2 chooses Scissors
+          resultElement.textContent = "Leikari 1 vinnur!";
+        } else { // Player 2 chooses Paper
+          resultElement.textContent = "Leikari 2 vinnur!";
+        }
+      }
+      // Player 1 chooses Scissors
+      else if (player1Choice === 1) {
+        if (player2Choice === 0) { // Player 2 chooses Rock
+          resultElement.textContent = "Leikari 2 vinnur!";
+        } else if (player2Choice === 1) { // Player 2 chooses Scissors
+          resultElement.textContent = "Javnt.";
+        } else { // Player 2 chooses Paper
+          resultElement.textContent = "Leikari 1 vinnur!";
+        }
+      }
+      // Player 1 chooses Paper
+      else {
+        if (player2Choice === 0) { // Player 2 chooses Rock
+          resultElement.textContent = "Leikari 1 vinnur!";
+        } else if (player2Choice === 1) { // Player 2 chooses Scissors
+          resultElement.textContent = "Leikari 2 vinnur!";
+        } else { // Player 2 chooses Paper
+          resultElement.textContent = "Javnt.";
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+<h1>Stein Saks Pappír</h1>
+
+<div>
+  <label for="player1">Leikari 1:</label>
+  <select id="player1">
+    <option value="0">Stein</option>
+    <option value="1">Saks</option>
+    <option value="2">Pappír</option>
+  </select>
+</div>
+<div>
+  <label for="player2">Leikari 2:</label>
+  <select id="player2">
+    <option value="0">Stein</option>
+    <option value="1">Saks</option>
+    <option value="2">Pappír</option>
+  </select>
+</div>
+
+<button onclick="playGame()">Spæl!</button>
+<div id="result"></div>
+</body>
+</html>
