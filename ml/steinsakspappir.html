@@ -13,13 +13,21 @@
     }
   </style>
   <script>
+
+
     function playGame() {
       // Get the choices from the input fields
       var player1Choice = parseInt(document.getElementById("player1").value);
       var player2Choice = parseInt(document.getElementById("player2").value);
-
+      const player1 = document.getElementById("player1")
+      const player2 = document.getElementById("player2")
       // Get the result element
       var resultElement = document.getElementById("result");
+      function clearResult() {
+        resultElement.textContent = "";
+      }
+      player1.addEventListener('change', clearResult);
+      player2.addEventListener('change', clearResult);
 
       // Player 1 chooses Rock
       if (player1Choice === 0) {

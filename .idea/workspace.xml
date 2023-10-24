@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e2a5015-5458-421c-8edd-db0b57d87e19" name="Changes" comment="moved to ml folder">
+    <list default="true" id="7e2a5015-5458-421c-8edd-db0b57d87e19" name="Changes" comment="broytt spurningar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ml/brudleyp.html" beforeDir="false" afterPath="$PROJECT_DIR$/ml/brudleyp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ml/sol.html" beforeDir="false" afterPath="$PROJECT_DIR$/ml/sol.html" afterDir="false" />
@@ -78,7 +78,7 @@
       <workItem from="1690807275213" duration="395000" />
       <workItem from="1690808421462" duration="598000" />
       <workItem from="1690890888883" duration="598000" />
-      <workItem from="1698079613227" duration="8521000" />
+      <workItem from="1698079613227" duration="9557000" />
     </task>
     <task id="LOCAL−00001" summary="first">
       <created>1698104747891</created>
@@ -92,7 +92,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1698104924862</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="broytt spurningar">
+      <created>1698136446172</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1698136446172</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="moved to ml folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved to ml folder" />
+    <MESSAGE value="broytt spurningar" />
+    <option name="LAST_COMMIT_MESSAGE" value="broytt spurningar" />
   </component>
 </project>

@@ -19,17 +19,32 @@
 <h2 id="result"></h2>
 
 <script>
-  function checkConditions() {
-    var isChecked1 = document.getElementById("input1").checked;
-    var isChecked2 = document.getElementById("input2").checked;
+
+
+  document.addEventListener('DOMContentLoaded', (event) => {
+    var input1 = document.getElementById("input1");
+    var input2 = document.getElementById("input2");
     var resultElement = document.getElementById("result");
 
-    if (isChecked1  && isChecked2 ) {
-      resultElement.textContent = "Ja, far !";
-    } else {
-      resultElement.textContent = "Ikki núbeint";
+    input1.addEventListener('change', clearResult);
+    input2.addEventListener('change', clearResult);
+
+    function checkConditions() {
+      if (input1.checked && input1.checked) {
+        resultElement.textContent = "Ja, far !";
+      } else {
+        resultElement.textContent = "Ikki núbeint";
+      }
     }
-  }
+
+    function clearResult() {
+      resultElement.textContent = "";
+    }
+
+    // Expose the checkConditions function to the global scope
+    window.checkConditions = checkConditions;
+  });
+
 </script>
 </body>
 </html>
